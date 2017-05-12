@@ -1,0 +1,21 @@
+{  
+  "name": "Collection",
+  "manifest_version": 2,
+  "version": "0.1.0",
+  "description": "Management my Collection.",  
+  "browser_action": {  
+    "default_icon": "32x32.png" ,
+    "default_title": "Collection",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+  	"16": "16x16.png",
+  	"32": "32x32.png",
+  	"48": "48x48.png",
+  	"64": "64x64.png",
+  	"128": "128x128.png"
+  },
+  "permissions": [
+  	"http://collection.chenbitao.com/"
+  ]
+}
